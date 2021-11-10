@@ -1,2 +1,2 @@
 # curso-JavaScript
- Exercicios feito no curso de JavaScript
+ Exercicios feito no curso introdutório de JavaScript!
