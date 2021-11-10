@@ -1,0 +1,59 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:rgb(36, 158, 158); 
+}
+
+header{
+    text-align: center;
+    font: Arial 32px;
+    color: #fff;
+    margin: 2em 0; 
+}
+section{
+    background-color:#fff;  
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    width: 400px;
+    box-shadow: 3px 3px 0.5px rgba(0, 0, 0, 0.342);    
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+   padding: .4em
+}
+#campos #btnp {
+    text-align: center;
+}
+#btn{
+    text-align: center;
+    background-color:rgb(36, 158, 158); 
+    padding: 0.2em .6em;
+    cursor: pointer;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.2em; 
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.308);
+    margin-bottom: .5em;
+
+}
+#btn:hover{
+    background-color: rgba(36, 158, 158, 0.678);
+    color: #000;
+    transition: .8s;
+}
+
+footer{
+    text-align: center;
+    color: #fff;
+}
+#res{
+    text-align: center;    
+}
+#res img{
+    padding-top: 2em;
+}

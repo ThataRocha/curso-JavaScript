@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Analisador de números</title>
+    </head>
+    <body>
+        <header>
+            <h1>Analisador de Números</h1>
+        </header>
+        <section>
+            <div id="topo">                
+                <label for="">Números (entre 1 e 100):</label>
+                <input type="number" name="Num" id="txtnum">
+                <input type="button" id="btn" value="Adicionar" onclick="adicionar()">
+                <select name="" id="adicionados" size="6"></select>
+                <br>
+                <input type="button" id="btn" value="Finalizar" onclick="resultado()">
+            </div>
+            <div id="result">  
+            </div>
+        </section>
+        <script src="script.js"></script>
+        <footer> &copy Thais Rocha</footer>
+    </body>
+</html>

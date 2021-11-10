@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(110, 110, 187);
+    color: white;
+    font: normal 20pt Arial;
+}
+strong{
+    color: rgba(255, 255, 0, 0.685);
+}

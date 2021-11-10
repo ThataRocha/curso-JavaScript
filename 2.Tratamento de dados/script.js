@@ -1,0 +1,2 @@
+var nome = window.prompt('Qual é o seu nome?') /*Solicitando informação com caixa de texto,  para o usuário.*/
+window.alert('É um grande prazer em te conhecer, ' +nome+' !') //Trabalhando a informação recebida como uma mensagem.
